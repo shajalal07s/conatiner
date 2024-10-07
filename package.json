@@ -1,0 +1,15 @@
+{
+  "name": "conatiner",
+  "version": "1.0.0",
+  "description": "This a container",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
